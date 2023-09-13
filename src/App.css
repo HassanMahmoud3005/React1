@@ -1,0 +1,146 @@
+body{
+  position: relative;
+}
+
+.image{
+  cursor: pointer;
+}
+
+#big{
+  position: fixed;
+  width: 550px;
+  height: 450px;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background-size: 100% 100%;
+  z-index: 10;
+  
+}
+.gellary{
+  color: #2C3E50;
+}
+.item{
+  overflow: hidden;
+  transition: .5s;
+}
+
+.item:hover .layer{
+top:0% ;
+}
+.layer{
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  height: 100%;
+  background-color: #1abc9cbd;
+  border-radius: 5px;
+  transition: .5s;
+  cursor: pointer;
+
+
+}
+.colorLink{
+  background-color: #1abc9cbd;
+  width: 20px;
+  height: 20px;
+}
+
+.navbar{
+  background-color: #2C3E50;
+height: 100px;
+}
+
+.home{
+  background-color: #1ABC9C;
+  height: 500px;
+}
+
+.homeImg{
+  width: 250px;
+}
+.totalLine{
+  width: 280px;
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.line{
+  background-color: white;
+  width: 100px;
+  height: 3px;
+}
+
+
+
+
+
+
+
+.about{
+  min-height: 500px;
+  background-color: #1ABC9C;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+
+
+.contactName{
+  color: #2C3E50;
+}
+
+
+
+
+
+
+.footer{
+  background-color: #2C3E50;
+  color: white;
+  
+}
+
+.footer .icon{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+  margin: auto;
+}
+
+.footer .icon span{
+  width: 40px;
+  height: 40px;
+  background-color: #2C3E50;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+
+.footer .icon span Link{
+width: 20px;
+height: 20px;
+}
+
+.footer .icon span Link i{
+font-size: 30px;
+
+}
+
+
+.end{
+  background-color: #1A252F;
+  height: 70px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
